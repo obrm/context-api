@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 
-import { useGlobalContext } from '../context/useGlobalContext';
+import { useGlobalContext } from '../hooks/useGlobalContext';
 
 const Submenu = () => {
   const {

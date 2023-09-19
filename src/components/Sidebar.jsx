@@ -1,6 +1,6 @@
 import { FaTimes } from 'react-icons/fa';
 
-import { useGlobalContext } from '../context/useGlobalContext';
+import { useGlobalContext } from '../hooks/useGlobalContext';
 
 import subLinks from '../data';
 
