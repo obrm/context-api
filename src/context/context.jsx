@@ -33,8 +33,8 @@ const AppProvider = ({ children }) => {
 
   // Function to open the submenu.
   // It also sets the details for the page and position where the submenu should appear.
-  const openSubmenu = (text, coordinates) => {
-    const page = subLinks.find((link) => link.page === text);
+  const openSubmenu = (pageName, coordinates) => {
+    const page = subLinks.find((link) => link.page === pageName);
     setPage(page);
     setLocation(coordinates);
     setIsSubmenuOpen(true);
