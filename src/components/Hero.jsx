@@ -10,8 +10,7 @@ const Hero = () => {
       <div className='hero-center'>
         <article className='hero-info'>
           <h1>
-            Payments infrastructure <br />
-            for the internet
+            Financial infrastructure for the internet
           </h1>
           <p>
             Millions of companies of all sizes—from startups to Fortune 500s—use
